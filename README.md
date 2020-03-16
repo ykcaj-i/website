@@ -1,5 +1,5 @@
 # website.io
-github website, example
+github website example
 
 
 
