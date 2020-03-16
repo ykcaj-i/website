@@ -1,6 +1,6 @@
 # website.io
 github website
 
--example website
+example website
 
 
