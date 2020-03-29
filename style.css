@@ -1,6 +1,18 @@
-body{
+html, body{
   background-image:url('https://wallpaperaccess.com/full/639668.png');
   background-size: cover;
+}
+
+@font-face{
+    font-family: 'tech';
+    src: url(fonts/04B_08__.TTF);
+    font-style: normal;
+    font-weight: 100;
+}
+
+a, p, h2, h3  {
+  font-family: tech;
+  font-weight: 100;
 }
 
 
@@ -18,7 +30,7 @@ body{
   text-align: center;
   padding: 12px 40px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 /* change the color of links on hover */
