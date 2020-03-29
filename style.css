@@ -3,6 +3,8 @@ body{
   background-size: cover;
 }
 
+
+
 /* add a black background color to the top navigation */
 .topnav {
   background-color: #223043;
@@ -28,6 +30,6 @@ body{
 /* first button */
 .topnav a.active {
   background-color:#0a2830;
-  color: ;
+  color: whitesmoke;
 }
  
