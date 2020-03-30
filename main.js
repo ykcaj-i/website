@@ -9,3 +9,16 @@ $(window).on("scroll", function(){
   }
 });
 */
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 300) {
+	    $(".topnav").css("background" , "changecolor");
+	  }
+
+	  else{
+		  $(".topnav").css("background" , "#223043");  	
+	  }
+  })
+})
