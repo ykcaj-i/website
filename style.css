@@ -20,7 +20,7 @@ a, p, h2, h6  {
 
 
 /* add a black background color to the top navigation */
-.topnav {
+#topnav {
   background-color: #223043;
   overflow: hidden;
   width: 100%;
@@ -30,7 +30,7 @@ a, p, h2, h6  {
 }
 
 /* style the links inside the navigation bar */
-.topnav a {
+#topnav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -40,14 +40,27 @@ a, p, h2, h6  {
 }
 
 /* change the color of links on hover */
-.topnav a:hover {
+#topnav a:hover {
   background-color: #904b6b;
   color:white;
 }
 
 /* first button */
-.topnav a.active {
+#topnav a.active {
   background-color:#0a2830;
   color: pink;
 }
 
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}

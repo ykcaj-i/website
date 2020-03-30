@@ -28,27 +28,24 @@
            
     </head>
   
-    <body> 
-
-        
-
-    <!--
+    <body>
  
+        <div id = "topnav">
+            <a class="active" href="javascript:void(0)">home</a>
+            <a href="javascript:void(0)">portfolio</a>
+            <a href="javascript:void(0)">contact</a>
+            <a href="javascript:void(0)">about</a>
+        </div>
         
-      
         
-        <header id = "header">
-            <div class = "topnav">
-                <a class="active" href="#home">home</a>
-                <a href="#portfolio">portfolio</a>
-                <a href="#contact">contact</a>
-                <a href="#about">about</a>
-            </div>
-
+        <header>
+           
         </header>
+        
         <br/>
         <br/>
         
+    <div class = "content">
         <style>
             h2{
                 text-align: center;
@@ -95,8 +92,22 @@
             <h6 style = "color:white">11</h6>
         </footer>
 
-        
+    </div>        
 
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var topnav = document.getElementById("topnav");
+        var sticky = topnav.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            topnav.classList.add("sticky")
+          } else {
+            topnav.classList.remove("sticky");
+          }
+        }
+    </script>
 
     </body>
     

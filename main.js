@@ -1,6 +1,6 @@
 
 // execute myFunction when user scroll
-var height = $('header').height();
+/*var height = $('header').height();
 $(window).on("scroll", function(){
   if($(this).scrollTop() > height){
     $('.topnav').addClass('topnav');
@@ -8,3 +8,4 @@ $(window).on("scroll", function(){
     $('.topnav').removeClass('topnav');
   }
 });
+*/
