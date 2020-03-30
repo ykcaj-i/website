@@ -2,6 +2,10 @@ html, body{
   background-image:url('https://wallpaperaccess.com/full/639668.png');
   background-size: cover;
   margin: 0;
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @font-face{
